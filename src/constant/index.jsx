@@ -1,0 +1,21 @@
+export const toolsArray = [
+    { id: 1, name: 'Remove Line Breaks' },
+    { id: 2, name: 'Text to HTML' },
+    { id: 3, name: 'HTML to Text' },
+    { id: 4, name: 'Sentence Counter' },
+    { id: 5, name: 'Random Choice Generator' },
+    { id: 6, name: 'Lorem Ipsum' },
+    { id: 7, name: 'Random Password Generator' },
+    { id: 8, name: 'Encode Word' },
+    { id: 9, name: 'Image to 3 4' },
+    { id: 10, name: 'Capitalize the First Letter of Sentences' },
+    { id: 11, name: 'Uppercase or Lowercase Text' },
+    { id: 12, name: 'Remove Spaces Online' },
+    { id: 13, name: 'Time Estimation for Text Reading' },
+    { id: 14, name: 'Text Comparison Service' },
+    { id: 15, name: 'Notepads' },
+    { id: 16, name: 'Random Number Generator' },
+    { id: 17, name: 'Online QR Code Generator' },
+    { id: 18, name: 'Pomodoro Timer' },
+  ];
+  

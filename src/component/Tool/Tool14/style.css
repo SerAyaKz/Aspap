@@ -1,0 +1,56 @@
+.text-comparer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.input-areas {
+  display: flex;
+  gap: 20px;
+}
+
+.input-areas textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.diff-results {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+.diff-part {
+  padding: 5px;
+}
+
+.diff-part.added {
+  background-color: lightgreen;
+  text-decoration: underline;
+}
+
+.diff-part.removed {
+  background-color: salmon;
+  text-decoration: line-through;
+}
+.text-comparer button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

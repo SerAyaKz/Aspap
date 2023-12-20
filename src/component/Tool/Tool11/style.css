@@ -1,0 +1,50 @@
+.text-case-converter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+
+}
+
+.input-text {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppercase-button, .lowercase-button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uppercase-button {
+  background-color: #007bff;
+}
+
+.uppercase-button:hover {
+  background-color: #0056b3;
+}
+
+.lowercase-button {
+  background-color: #28a745;
+}
+
+.lowercase-button:hover {
+  background-color: #218838;
+}

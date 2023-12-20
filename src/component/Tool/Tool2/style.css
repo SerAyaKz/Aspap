@@ -1,0 +1,45 @@
+.text-to-html-converter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+  }
+  
+  .input-text, .output-html {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  
+  .format-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .format-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .convert-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .convert-button:hover {
+    background-color: #0056b3;
+  }

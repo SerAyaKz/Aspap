@@ -1,0 +1,20 @@
+/* Header Styles */
+.header {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 15px; /* Adds spacing between the logo and text */
+  }
+  
+  .website-name {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+  }
+  

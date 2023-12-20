@@ -1,0 +1,18 @@
+.lorem-ipsum-display {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+
+}
+
+.lorem-textarea {
+  width: 100%;
+  min-height: 400px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: monospace;
+  resize: none;
+}

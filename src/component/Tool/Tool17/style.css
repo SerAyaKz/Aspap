@@ -1,0 +1,24 @@
+.qr-code-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.qr-code-generator input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.qr-code-display {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}

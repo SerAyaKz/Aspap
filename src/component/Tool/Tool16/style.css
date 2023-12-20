@@ -1,0 +1,40 @@
+.random-number-generator {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+}
+.random-number-generator label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.random-number-generator input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.random-number-generator button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.random-number-generator .random-numbers-display {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+}

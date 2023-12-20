@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && sed \"s~<head>~<head><script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3642212396752437\" crossorigin=\"anonymous\"></script>~g\" build/index.html -i",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

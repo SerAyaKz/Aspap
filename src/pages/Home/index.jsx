@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import { Header, Footer, EmptyView, List ,AdComponent} from "../../component/common";
+import { Header, Footer, EmptyView, List } from "../../component/common";
 import { Filter } from "../../component/Home";
 import { toolsArray } from "../../constant";
 import { useParams } from "react-router-dom";
@@ -121,7 +121,6 @@ const Home = () => {
       >
         Загрузка…
       </iframe>
-      <AdComponent dataAdSlot='X7XXXXXX5X' />
 
       <Footer />
 

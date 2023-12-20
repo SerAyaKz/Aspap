@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CheckboxProton,SearchBar } from "../";
+import { CheckboxProton, SearchBar } from "../";
 import "./style.css";
 
 const FilterPanel = ({

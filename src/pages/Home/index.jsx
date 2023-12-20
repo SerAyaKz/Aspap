@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import { Header, Footer, EmptyView, List } from "../../component/common";
+import { Header, Footer, EmptyView, List ,AdComponent} from "../../component/common";
 import { Filter } from "../../component/Home";
 import { toolsArray } from "../../constant";
 import { useParams } from "react-router-dom";
@@ -111,7 +111,18 @@ const Home = () => {
       <div className="home_list-wrap">
         {list ? <List list={list} /> : <EmptyView />}
       </div>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgR0Ab0OXFtnXVMEiSBkePKWe5O9xWcxT6vu6rpFUJUW5yHw/viewform?embedded=true" width="640" height="913" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfgR0Ab0OXFtnXVMEiSBkePKWe5O9xWcxT6vu6rpFUJUW5yHw/viewform?embedded=true"
+        width="640"
+        height="913"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Загрузка…
+      </iframe>
+      <AdComponent />
+
       <Footer />
 
       {/* Scroll-to-top button */}

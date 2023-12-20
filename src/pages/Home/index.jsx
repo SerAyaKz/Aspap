@@ -121,7 +121,7 @@ const Home = () => {
       >
         Загрузка…
       </iframe>
-      <AdComponent />
+      <AdComponent dataAdSlot='X7XXXXXX5X' />
 
       <Footer />
 
